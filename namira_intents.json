@@ -1,0 +1,36 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "How are you?"],
+     "responses": ["Hello", "Hi", "Hi there","Hello how are you?"]
+    },
+    {"tag": "question",
+     "patterns": ["I have a complaint regarding opening account", "I want to submit a complaint", "I have a complaint that needs be resolved", "I have complaint that needs to be addressed"],
+     "responses": ["May I know what complaint you have?", "yes, what is the issue?", "Can you briefly describe the problem?"]
+    },
+     {"tag": "Application",
+     "patterns": ["Application doesnt work properly", "Application is not easy to access","Application has too many features"],
+     "responses": ["We apologize for inconvenience! We will try to update application","We apologize for inconvenience! An email will be sent to you with instruction on how to use it","We apologize for inconvenience! A customer representative will call you to explain how to use the application"]
+    },
+     {"tag": "HiddenFees",
+     "patterns": ["There is excessive hidden fees","hidden fees are too much","You guys are charging too much"],
+     "responses": ["We apologize for inconvenience! The hidden fees are high because it has certain coverages like overdraft","We apologize for inconvenience! it includes other protection for your own good","We apologize for inconvenience! But we charge for certain other things which are included in the documentation"]
+    },
+    {"tag": "customerService",
+     "patterns": ["The customer service is very poor","A customer executive did not resolve my issue","A customer executive talked with me rudely"],
+     "responses": ["We apologize for inconvenience! We will update this in our record and provide you with better customer service!","We apologize for inconvenience that happened because of our staff","We apologize for inconvenience! We will try not to let down again."]
+    },
+    {"tag": "benefits",
+     "patterns": ["I cannot claim the benefit! Worst management","It's hard to claim the reward","I havent received my reward yet!"],
+     "responses": ["We apologize for inconvenience! A customer service representative  will get back to you soon to resolve your issue.","We apologize for inconvenience! you will receive an email soon to resolve the issue","We apologize for inconvenience! you will receive a link soon that will give you your reward"]
+    },
+    {"tag": "Delivery",
+     "patterns": ["The delivery for debit card was too late","The delivery time for debit card was too much","I received my debit card after a month. Very disappointing!"],
+     "responses": ["We apologize for inconvenience!","We are sorry about it and thank you for your patience","We apologize for inconvenience! we will try not to let that happen"]
+    },
+
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    }   
+]
+}
